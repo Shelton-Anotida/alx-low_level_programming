@@ -5,7 +5,7 @@
  * main - The entry of the program
  * _putchar: the function going to print
  *
- * Return: 0 (Success)
+ * Return: (0) (Success)
  */
 int main(void)
 {
