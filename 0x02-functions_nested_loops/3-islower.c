@@ -2,6 +2,7 @@
 
 /**
  * _islower - functon that show lowercase letters
+ * @c: Variableto be used
  *
  * Return: 0(Success)
  */
