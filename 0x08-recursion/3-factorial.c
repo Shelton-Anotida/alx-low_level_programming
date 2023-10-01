@@ -9,16 +9,16 @@ int factorial(int n)
 {
 	if (n < 0)
 	{
-		return (-1); // Error: factorial is not defined for negative numbers
+		return (-1);
 	}
 	else if (n == 0)
 	{
-		_putchar('1'); // Base case: factorial of 0 is 1
+		_putchar('1');
 		return (1);
 	}
 	else
 	{
-		int result = n * factorial(n - 1); // Recursive case
+		int result = n * factorial(n - 1);
 		int digit = result % 10;
 		int remaining = result / 10;
 
