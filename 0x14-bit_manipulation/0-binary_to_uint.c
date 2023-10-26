@@ -5,7 +5,8 @@
  * binary_to_uint - Convert a binary string to an unsigned int.
  * @b: The binary string to convert.
  *
- * Return: The converted number, or 0 if there are non-binary characters or b is NULL.
+ * Return: The converted number, or 0
+ * if there are non-binary characters or b is NULL.
  */
 unsigned int binary_to_uint(const char *b)
 {
@@ -19,12 +20,12 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (current_char == '0' || current_char == '1')
 		{
-			result = (result << 1) | (current_char - '0'); /* Shift left and add the binary digit */
+			result = (result << 1) | (current_char - '0');
 			b++;
 		}
 		else
 		{
-			return (0); /* Invalid character, return 0 */
+			return (0);
 		}
 	}
 
